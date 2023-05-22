@@ -1,0 +1,54 @@
+.header {
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    height: 6rem;
+    background-image: url(../media/images/main-bg.jpg);
+    background-repeat: repeat;
+    background-size: 40%;
+    &__logo {
+      width: 5rem;
+      height: 5rem;
+      margin-left: 2rem;
+      filter: contrast(10%) brightness(5);
+      transition: all 100ms;
+      &:hover {
+        scale: 1.1;
+      }
+    }
+    .navBar {
+      width: 100%;
+      margin: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      &__preorder {
+        background-color: transparent;
+        font-size: 2rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 50ms linear;
+        text-decoration: none;
+        color: white;
+        &:hover {
+          font-weight: 900;
+          color: #f3ca28;
+        }
+      }
+      &__btn {
+        background-color: transparent;
+        font-size: 1.5rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 50ms linear;
+        margin: 0.5rem;
+        text-decoration: none;
+        color: white;
+        &:hover {
+          font-weight: 900;
+          color: #f3ca28;
+        }
+      }
+    }
+  }
