@@ -466,7 +466,7 @@ main {
   .postSection {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 500px);
+    grid-template-rows: repeat(2, 500px);
     gap: 2rem;
     width: 100vw;
     justify-items: center;
